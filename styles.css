@@ -1,0 +1,140 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin-top: -4%;
+}
+
+body {
+  /* background-color: #; */
+  background: linear-gradient(#c31432,#240b36);
+
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+h2 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+.Box{
+  width: 800px;
+  height: 200px;
+  background-color: none;
+  /* border: 1px solid #1E3E62; */
+  display: flex;
+ margin-left: 30%;
+}
+.box1{
+  width: 150px;
+  height: 150px;
+  background-color: #FF6500;
+  border-radius: 100px;
+  /* border: 2px solid #FF6500; */
+  margin: 10px;
+
+}
+.box1 img{
+  width: 150px;
+  height: 150px;
+  border-radius: 260px;
+  background-position: 10px 30px;
+  border: 2px solid #FF6500;
+  transition: 0.2s;;
+
+}
+.box1 img:hover{
+  transform: scale(1.2);
+  transition: ease-in-out;
+  cursor: pointer;
+}
+.box2 h1{
+  font-size: 19px;
+  text-align: center;
+  margin: auto;
+  margin-top: 60px;
+  word-spacing: 10px;
+  font-weight: 100;
+}
+.box2 p {
+  /* word-spacing: 1rem; */
+  line-height: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 100;
+
+}
+.box2 i{
+  font-size: 24px;
+  text-align: center;
+  color: #1E3E62;
+  margin-left: 15%;
+  font-weight: 700;
+}
+.box2 i:hover{
+  color: #FF6500;
+  cursor: pointer;
+}
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+@media only screen and (max-width: 767px){
+  .Box {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+
+  .box1 {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+
+  .box1 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .box2 h1 {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .box2 p {
+    font-size: 18px;
+    line-height: 8px;
+  }
+
+  .box2 i {
+    font-size: 20px;
+    margin-left: 10%;
+  }
+}
